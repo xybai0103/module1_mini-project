@@ -27,6 +27,11 @@ li {
   text-decoration: none;
 }
 
+  /* pseudo-classes*/
+li :hover {
+  color:#521D64;
+}
+
 a {
     text-decoration: none;
     color: #FAF6FB;
@@ -61,6 +66,7 @@ img {
   height: 300px;
   display: block;
   margin: 20px auto;
+  border-radius: 8%;
 }
 
 section {
